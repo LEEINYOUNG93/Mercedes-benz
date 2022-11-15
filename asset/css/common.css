@@ -1,0 +1,25 @@
+:root{
+  --theme-color1:#0078D6;
+  --theme-color2:#000;
+}
+
+.blind{position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); margin: -1px;}
+body{line-height: 1; font-family: 'Poppins', sans-serif; color: #f5f5f5;}
+[data-color="point1"]{color: var(--theme-color1); fill: var(--theme-color1);}
+[data-color="point2"]{color: var(--theme-color2); fill: var(--theme-color2);}
+
+/* padding   */
+.padding-lg{padding-top: 200px;}
+.padding-md{padding-top: 100px;}
+.padding-sm{padding-top: 50px;}
+.pd-side{padding: 0 30px;}
+
+#container *a{cursor: pointer;}
+
+/* e-color:effect-color / t-cate:title-category */
+
+[data-slideUp=true] .wrap{overflow: hidden; display: block;}
+[data-slideUp=true] .line{ display: inline-block; transform: translateY(100%);}
+[data-slideUp=true] .border-line{position: absolute; top: 0; left: 0; width: 0%; height: 1px; background: #fff}
+
+
